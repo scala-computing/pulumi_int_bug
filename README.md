@@ -19,15 +19,16 @@ You'll see that the explicitly defined `int` types are now `float` types.
 
 
 ```
-  ╭──────────────────────────────── ! WARNING ! ─────────────────────────────────╮
-    │                                                                              │
-    │  value of test_value is 42.0                                                 │
-    │  type of test_value is <class 'float'>                                       │
-    │  expected type of test_value is int                                          │
-    ╰──────────────────────────────────────────────────────────────────────────────╯
-    ╭──────────────────────────────── ! WARNING ! ─────────────────────────────────╮
-    │                                                                              │
-    │  value of test_dictionary["test_int_value"] is 42.0                          │
-    │  type of test_dictionary["test_int_value"] is <class 'float'>                │
-    │  expected type of test_dictionary["test_int_value"] is int                   │
-    ╰──────────────────────────────────────────────────────────────────────────────╯```
+╭──────────────────────────────── ! WARNING ! ─────────────────────────────────╮
+│                                                                              │
+│  value of test_value is 42.0                                                 │
+│  type of test_value is <class 'float'>                                       │
+│  expected type of test_value is int                                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────── ! WARNING ! ─────────────────────────────────╮
+│                                                                              │
+│  value of test_dictionary["test_int_value"] is 42.0                          │
+│  type of test_dictionary["test_int_value"] is <class 'float'>                │
+│  expected type of test_dictionary["test_int_value"] is int                   │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
