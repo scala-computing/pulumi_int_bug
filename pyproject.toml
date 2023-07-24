@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pulumi-int"
+version = "0.1.0"
+description = ""
+authors = ["HoughIO <graham@hough.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pulumi = "^3.76.0"
+rich = "^13.4.2"
+black = "^23.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
